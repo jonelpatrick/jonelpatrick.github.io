@@ -392,7 +392,9 @@ background: url('../images/galaxy-bg.jpg');
   height: 100vh;
   padding: 0 45px 0 45px;
 }
-
+#home .home-thumb p{
+   color: #d6ae57;
+}
 
 
 /*---------------------------------------
