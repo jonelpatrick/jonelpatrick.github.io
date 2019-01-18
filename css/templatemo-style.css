@@ -392,9 +392,7 @@ background: url('../images/galaxy-bg.jpg');
   height: 100vh;
   padding: 0 45px 0 45px;
 }
-#home .home-thumb p{
-   color: #d6ae57;
-}
+
 
 
 /*---------------------------------------
@@ -978,5 +976,77 @@ h3.social-title{
 #project-page .decs p{
   font-size: 20px;
 }
+#home .home-thumb p{
+  color: #d6ae57;
+}
+.social-icon li a{
+  font-size: 27px;
+}
+footer {
+    padding: 80px 0px;
+}
+
 /*responsive*/
+
+@media(max-width: 1024px){
+  #about.parallax-section .third-col{
+    min-height: 50vh;
+  }
+  #about.parallax-section .about-say{
+    margin-top: 24%;
+  }
+  #about.parallax-section .about-img{
+    min-height: 58.7vh;
+    background-position: 11% 16% !important;
+  }
+  #service .height426{
+    min-height: 486px;
+  }
+  #contact .bg-dark.col-md-3.col-sm-6{
+    width: 32%;
+  }
+  #contact .contact-form, #contact .contact-thumb{
+    min-height: 34vh;
+  }
+  #contact .contact-content{
+    padding-top: 17%;
+  }
+  #contact .social-title{
+    text-align: center;
+  }
+}
+@media(max-width: 768px){
+  #about.parallax-section .about-img{
+    min-height: 67.7vh;
+  }
+  #contact .bg-dark.col-md-3.col-sm-6{
+    width: 100%;
+  }
+  #contact .contact-content{
+    padding-top: 9%;
+  }
+  #contact .contact-info{
+    text-align: center;
+  }
+  #contact .contact-info.btm{
+    border-top: 1px solid;
+  }
+  #project .color-white.media{
+    margin-bottom: 2em;
+  }
+  #about.parallax-section .about-say{
+    margin-top: 7%;
+  }
+}
+@media(max-width: 600px){
+  #project .graphic-section .center-vertical{
+    margin-bottom: 11%;
+  }
+  .about-thumb .social-title{
+    display: none;
+  }
+  #home .home-thumb{
+    padding-bottom: 32px;
+  }
+}
 
