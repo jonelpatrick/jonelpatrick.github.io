@@ -1037,6 +1037,10 @@ footer {
   #about.parallax-section .about-say{
     margin-top: 7%;
   }
+  .main-title.page-title-top{  
+   text-align: center;
+  }
+
 }
 @media(max-width: 600px){
   #project .graphic-section .center-vertical{
@@ -1048,5 +1052,9 @@ footer {
   #home .home-thumb{
     padding-bottom: 32px;
   }
+  .main-title.page-title-top{
+    font-size: 5rem;
+  }
 }
+
 
