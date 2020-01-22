@@ -564,7 +564,7 @@ background: url('../images/galaxy-bg.jpg');
 #contact .contact-form,
 #contact .contact-thumb {
   padding: 22px 32px 22px 32px;
-  min-height: 68vh;
+  min-height: 50vh;
 }
 
 #contact .contact-img {
@@ -1055,6 +1055,29 @@ footer {
   #project-page .main-title.page-title-top{
     font-size: 5rem;
   }
+  .featured-section .wow .content{
+    margin-bottom: 2em;
+  }
 }
+.home-thumb .section-title{
+  background: rgba(0,0,0,0.8);
+}
+.custom-navbar .navbar-brand{
+ text-shadow: 1px 1px 6px #000; 
+}
+.custom-navbar.top-nav-collapse .navbar-brand{
+ text-shadow: none; 
+}
+#experience small{
+  color:#E3AE57;
+}
+.web-section{
+ background: #eee; 
 
-
+}
+#home > .container{
+ background: #000; 
+} 
+.featured-section .wow .content .content-details h3{
+  font-size: 20px;
+}
